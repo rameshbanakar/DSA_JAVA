@@ -15,6 +15,9 @@ public class CycleDetectionInGraph {
         pathFound.remove(node);
         return false;
     }
+    public static boolean cycleDetectionInUndirectedGraph(){
+        return true;
+    }
     public static void main(String []args) {
         int edges[][] = {{1, 2}, {2, 3}, {3, 4}, {4, 1}};
         int nodes = 4;
