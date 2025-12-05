@@ -31,7 +31,7 @@ public class CycleDetectionInGraph {
             graph.get(start).add(end);
 
         }
-//        System.out.println(graph);
+        System.out.println(graph);
         ArrayList<Integer> pathFound=new ArrayList<>();
         boolean visited[] = new boolean[nodes + 1];
 
