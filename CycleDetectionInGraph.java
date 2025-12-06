@@ -15,9 +15,20 @@ public class CycleDetectionInGraph {
         pathFound.remove(node);
         return false;
     }
-    public static boolean cycleDetectionInUndirectedGraph(){
-        return true;
+    public static boolean cycleDetectionInUndirectedGraph(ArrayList<ArrayList<Integer>> graph,int node,int parent,boolean visited[]){
+        visited[node]=true;
+        for(int nei:graph.get(node)){
+            if(!visited[nei]){
+                if(cycleDetectionInUndirectedGraph(graph,nei,node,visited)){
+                    return true;
+                }else if(nei!=parent){
+                    return true;
+                }
+            }
+        }
+        return false;
     }
+
     public static void main(String []args) {
         int edges[][] = {{1, 2}, {2, 3}, {3, 4}, {4, 1}};
         int nodes = 4;
@@ -32,19 +43,27 @@ public class CycleDetectionInGraph {
             int start = edges[j][0];
             int end = edges[j][1];
             graph.get(start).add(end);
+            graph.get(end).add(start);
 
         }
         System.out.println(graph);
         ArrayList<Integer> pathFound=new ArrayList<>();
         boolean visited[] = new boolean[nodes + 1];
 
-        boolean cycle=false;
-        for(int j=1;j<=nodes;j++){
+//        boolean cycle=false;
+//        for(int j=1;j<=nodes;j++){
+//            if(!visited[j]){
+//                cycle=cycleDetectInDirectedGraph(graph,j,pathFound,visited);
+//            }
+//        }
+//        System.out.println(cycle);
+        boolean cycleInUndireactedGraph=false;
+        for(int j=0;j<=nodes;j++){
             if(!visited[j]){
-                cycle=cycleDetectInDirectedGraph(graph,j,pathFound,visited);
+                cycleInUndireactedGraph=cycleDetectionInUndirectedGraph(graph,j,-1,visited);
             }
         }
-        System.out.println(cycle);
+        System.out.println("cycleDetectionInUndirectedGraph:"+cycleInUndireactedGraph);
 
     }
 }
