@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="MST finding in the connected graph">
-      <change afterPath="$PROJECT_DIR$/djikstras_algo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="dijakstras algorithm to find the shorted path from source to all nodes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765018159978</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="dijakstras algorithm to find the shorted path from source to all nodes">
+      <option name="closed" value="true" />
+      <created>1765050479726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765050479726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,6 +202,7 @@
     <MESSAGE value="breadth first search in graphs" />
     <MESSAGE value="shortest path from source to destination in graph" />
     <MESSAGE value="MST finding in the connected graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="MST finding in the connected graph" />
+    <MESSAGE value="dijakstras algorithm to find the shorted path from source to all nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="dijakstras algorithm to find the shorted path from source to all nodes" />
   </component>
 </project>
