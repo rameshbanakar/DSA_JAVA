@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="adding the two varibale approach">
-      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="dijakstras algorithm to find the shorted path from source to all nodes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonaciSeries.java" beforeDir="false" afterPath="$PROJECT_DIR$/fibonaciSeries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/topology_sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/topology_sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,18 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "rameshbanakar"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;rameshbanakar&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/rameshbanakar/DSA_JAVA.git&quot;,
     &quot;accountId&quot;: &quot;d09cdeff-cc9a-4bc6-8f78-c5170eb5f98d&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -47,7 +49,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.CycleDetectionInGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.bfs_graph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.djikstras_algo.executor&quot;: &quot;Run&quot;,
     &quot;Application.fibonaciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.prims_algo_MST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.shortest_path_in_graph.executor&quot;: &quot;Run&quot;,
     &quot;Application.test.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -91,7 +98,79 @@
       <option name="project" value="LOCAL" />
       <updated>1764030259421</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding the two varibale approach">
+      <option name="closed" value="true" />
+      <created>1764900489232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1764900489232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adding the two varibale approach">
+      <option name="closed" value="true" />
+      <created>1764900601825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1764900601825</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adding the two varibale approach">
+      <option name="closed" value="true" />
+      <created>1764900721061</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1764900721061</updated>
+    </task>
+    <task id="LOCAL-00007" summary="cycle detection in the underected graph">
+      <option name="closed" value="true" />
+      <created>1764901176712</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1764901176712</updated>
+    </task>
+    <task id="LOCAL-00008" summary="cycle detection in the undirected graph">
+      <option name="closed" value="true" />
+      <created>1764996613049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1764996613049</updated>
+    </task>
+    <task id="LOCAL-00009" summary="breadth first search in graphs">
+      <option name="closed" value="true" />
+      <created>1764998636759</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1764998636759</updated>
+    </task>
+    <task id="LOCAL-00010" summary="shortest path from source to destination in graph">
+      <option name="closed" value="true" />
+      <created>1765005462981</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1765005462981</updated>
+    </task>
+    <task id="LOCAL-00011" summary="MST finding in the connected graph">
+      <option name="closed" value="true" />
+      <created>1765018159978</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1765018159978</updated>
+    </task>
+    <task id="LOCAL-00012" summary="dijakstras algorithm to find the shorted path from source to all nodes">
+      <option name="closed" value="true" />
+      <created>1765050479726</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1765050479726</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +200,12 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="adding the hello wrold code" />
     <MESSAGE value="adding the two varibale approach" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding the two varibale approach" />
+    <MESSAGE value="cycle detection in the underected graph" />
+    <MESSAGE value="cycle detection in the undirected graph" />
+    <MESSAGE value="breadth first search in graphs" />
+    <MESSAGE value="shortest path from source to destination in graph" />
+    <MESSAGE value="MST finding in the connected graph" />
+    <MESSAGE value="dijakstras algorithm to find the shorted path from source to all nodes" />
+    <option name="LAST_COMMIT_MESSAGE" value="dijakstras algorithm to find the shorted path from source to all nodes" />
   </component>
 </project>
