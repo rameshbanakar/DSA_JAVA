@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="topological sorting">
-      <change afterPath="$PROJECT_DIR$/kadence_algo.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="kadence algo to find the maximum subarray sum">
+      <change afterPath="$PROJECT_DIR$/adding_ele.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_JAVA/topology_sorting.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_JAVA/topology_sorting.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +50,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CycleDetectionInGraph.executor": "Run",
+    "Application.adding_ele.executor": "Run",
     "Application.bfs_graph.executor": "Run",
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
@@ -189,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765091569019</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="kadence algo to find the maximum subarray sum">
+      <option name="closed" value="true" />
+      <created>1765322120950</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765322120950</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +234,7 @@
     <MESSAGE value="MST finding in the connected graph" />
     <MESSAGE value="dijakstras algorithm to find the shorted path from source to all nodes" />
     <MESSAGE value="topological sorting" />
-    <option name="LAST_COMMIT_MESSAGE" value="topological sorting" />
+    <MESSAGE value="kadence algo to find the maximum subarray sum" />
+    <option name="LAST_COMMIT_MESSAGE" value="kadence algo to find the maximum subarray sum" />
   </component>
 </project>
