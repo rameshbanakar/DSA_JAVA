@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="kadence algo to find the maximum subarray sum">
-      <change afterPath="$PROJECT_DIR$/adding_ele.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="adding the element into the array with the queries array">
+      <change afterPath="$PROJECT_DIR$/merge_overlaping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
     "Application.kadence_algo.executor": "Run",
+    "Application.merge_overlaping.executor": "Run",
     "Application.prims_algo_MST.executor": "Run",
     "Application.shortest_path_in_graph.executor": "Run",
     "Application.test.executor": "Run",
@@ -197,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765322120950</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adding the element into the array with the queries array">
+      <option name="closed" value="true" />
+      <created>1765324037563</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765324037563</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,6 +244,7 @@
     <MESSAGE value="dijakstras algorithm to find the shorted path from source to all nodes" />
     <MESSAGE value="topological sorting" />
     <MESSAGE value="kadence algo to find the maximum subarray sum" />
-    <option name="LAST_COMMIT_MESSAGE" value="kadence algo to find the maximum subarray sum" />
+    <MESSAGE value="adding the element into the array with the queries array" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding the element into the array with the queries array" />
   </component>
 </project>
