@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the first missing natural number">
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="check set or unset of a number using the bit manupulation concept">
+      <change afterPath="$PROJECT_DIR$/change_unset_bit_to_set.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +53,8 @@
     "Application.Sub_matrix_sum.executor": "Run",
     "Application.adding_ele.executor": "Run",
     "Application.bfs_graph.executor": "Run",
+    "Application.change_unset_bit_to_set.executor": "Run",
+    "Application.checK_set_unset.executor": "Run",
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
     "Application.kadence_algo.executor": "Run",
@@ -248,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765635952119</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="check set or unset of a number using the bit manupulation concept">
+      <option name="closed" value="true" />
+      <created>1765645210260</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765645210260</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -291,6 +302,7 @@
     <MESSAGE value="finding the value in the 2D sorted array" />
     <MESSAGE value="sum of all sub matrix using the contribution technique" />
     <MESSAGE value="finding the first missing natural number" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the first missing natural number" />
+    <MESSAGE value="check set or unset of a number using the bit manupulation concept" />
+    <option name="LAST_COMMIT_MESSAGE" value="check set or unset of a number using the bit manupulation concept" />
   </component>
 </project>
