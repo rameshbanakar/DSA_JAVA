@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="if the ith bit is unset make it to the set and if it is already set no change">
-      <change afterPath="$PROJECT_DIR$/find_unique_number.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the unique number in the array">
+      <change afterPath="$PROJECT_DIR$/find_two_unique_numbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +57,7 @@
     "Application.checK_set_unset.executor": "Run",
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
+    "Application.find_two_unique_numbers.executor": "Run",
     "Application.find_unique_number.executor": "Run",
     "Application.kadence_algo.executor": "Run",
     "Application.merge_overlaping.executor": "Run",
@@ -275,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765646780100</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="finding the unique number in the array">
+      <option name="closed" value="true" />
+      <created>1765647023659</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1765647023659</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +330,7 @@
     <MESSAGE value="finding the first missing natural number" />
     <MESSAGE value="check set or unset of a number using the bit manupulation concept" />
     <MESSAGE value="if the ith bit is unset make it to the set and if it is already set no change" />
-    <option name="LAST_COMMIT_MESSAGE" value="if the ith bit is unset make it to the set and if it is already set no change" />
+    <MESSAGE value="finding the unique number in the array" />
+    <option name="LAST_COMMIT_MESSAGE" value="finding the unique number in the array" />
   </component>
 </project>
