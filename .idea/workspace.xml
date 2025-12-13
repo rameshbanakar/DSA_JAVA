@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the value in the 2D sorted array">
-      <change afterPath="$PROJECT_DIR$/Sub_matrix_sum.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="sum of all sub matrix using the contribution technique">
+      <change afterPath="$PROJECT_DIR$/missing_natural_number.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,7 @@
     "Application.fibonaciSeries.executor": "Run",
     "Application.kadence_algo.executor": "Run",
     "Application.merge_overlaping.executor": "Run",
+    "Application.missing_natural_number.executor": "Run",
     "Application.prims_algo_MST.executor": "Run",
     "Application.searching_in_2D_sorted_array.executor": "Debug",
     "Application.shortest_path_in_graph.executor": "Run",
@@ -224,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765496017963</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sum of all sub matrix using the contribution technique">
+      <option name="closed" value="true" />
+      <created>1765498860841</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765498860841</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -265,6 +274,18 @@
     <MESSAGE value="adding the element into the array with the queries array" />
     <MESSAGE value="merging the overlapping arrays" />
     <MESSAGE value="finding the value in the 2D sorted array" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the value in the 2D sorted array" />
+    <MESSAGE value="sum of all sub matrix using the contribution technique" />
+    <option name="LAST_COMMIT_MESSAGE" value="sum of all sub matrix using the contribution technique" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/missing_natural_number.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
