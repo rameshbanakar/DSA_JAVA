@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="check set or unset of a number using the bit manupulation concept">
-      <change afterPath="$PROJECT_DIR$/change_unset_bit_to_set.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="if the ith bit is unset make it to the set and if it is already set no change" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -259,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765645210260</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="if the ith bit is unset make it to the set and if it is already set no change">
+      <option name="closed" value="true" />
+      <created>1765645590612</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765645590612</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -303,6 +308,7 @@
     <MESSAGE value="sum of all sub matrix using the contribution technique" />
     <MESSAGE value="finding the first missing natural number" />
     <MESSAGE value="check set or unset of a number using the bit manupulation concept" />
-    <option name="LAST_COMMIT_MESSAGE" value="check set or unset of a number using the bit manupulation concept" />
+    <MESSAGE value="if the ith bit is unset make it to the set and if it is already set no change" />
+    <option name="LAST_COMMIT_MESSAGE" value="if the ith bit is unset make it to the set and if it is already set no change" />
   </component>
 </project>
