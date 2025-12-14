@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="number of distant elements in the array">
-      <change afterPath="$PROJECT_DIR$/pair_sum.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the pair sum in the array">
+      <change afterPath="$PROJECT_DIR$/count_pair_sum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,6 +55,7 @@
     "Application.bfs_graph.executor": "Run",
     "Application.change_unset_bit_to_set.executor": "Run",
     "Application.checK_set_unset.executor": "Run",
+    "Application.count_pair_sum.executor": "Run",
     "Application.distant_elements.executor": "Run",
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
@@ -312,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765692421126</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="finding the pair sum in the array">
+      <option name="closed" value="true" />
+      <created>1765693870383</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1765693870383</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,6 +370,7 @@
     <MESSAGE value="finding the two unique number in the array" />
     <MESSAGE value="finding the frequency of the numbers" />
     <MESSAGE value="number of distant elements in the array" />
-    <option name="LAST_COMMIT_MESSAGE" value="number of distant elements in the array" />
+    <MESSAGE value="finding the pair sum in the array" />
+    <option name="LAST_COMMIT_MESSAGE" value="finding the pair sum in the array" />
   </component>
 </project>
