@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the frequency of the numbers" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="number of distant elements in the array">
+      <change afterPath="$PROJECT_DIR$/pair_sum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,6 +55,7 @@
     "Application.bfs_graph.executor": "Run",
     "Application.change_unset_bit_to_set.executor": "Run",
     "Application.checK_set_unset.executor": "Run",
+    "Application.distant_elements.executor": "Run",
     "Application.djikstras_algo.executor": "Run",
     "Application.fibonaciSeries.executor": "Run",
     "Application.find_frequency_of_number.executor": "Run",
@@ -60,6 +64,7 @@
     "Application.kadence_algo.executor": "Run",
     "Application.merge_overlaping.executor": "Run",
     "Application.missing_natural_number.executor": "Run",
+    "Application.pair_sum.executor": "Run",
     "Application.prims_algo_MST.executor": "Run",
     "Application.searching_in_2D_sorted_array.executor": "Debug",
     "Application.shortest_path_in_graph.executor": "Run",
@@ -299,7 +304,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765691798007</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="number of distant elements in the array">
+      <option name="closed" value="true" />
+      <created>1765692421126</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1765692421126</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,6 +360,7 @@
     <MESSAGE value="finding the unique number in the array" />
     <MESSAGE value="finding the two unique number in the array" />
     <MESSAGE value="finding the frequency of the numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the frequency of the numbers" />
+    <MESSAGE value="number of distant elements in the array" />
+    <option name="LAST_COMMIT_MESSAGE" value="number of distant elements in the array" />
   </component>
 </project>
