@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the two unique number in the array">
-      <change afterPath="$PROJECT_DIR$/find_frequency_of_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the frequency of the numbers" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765653114548</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="finding the frequency of the numbers">
+      <option name="closed" value="true" />
+      <created>1765691798007</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765691798007</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -341,6 +346,7 @@
     <MESSAGE value="if the ith bit is unset make it to the set and if it is already set no change" />
     <MESSAGE value="finding the unique number in the array" />
     <MESSAGE value="finding the two unique number in the array" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the two unique number in the array" />
+    <MESSAGE value="finding the frequency of the numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="finding the frequency of the numbers" />
   </component>
 </project>
