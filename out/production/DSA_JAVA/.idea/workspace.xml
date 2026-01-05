@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="dijakstras algorithm to find the shorted path from source to all nodes">
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the GCD">
+      <change afterPath="$PROJECT_DIR$/merge_to_array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topology_sorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/topology_sorting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +37,7 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -50,12 +51,30 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.CycleDetectionInGraph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Sub_matrix_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.adding_ele.executor&quot;: &quot;Run&quot;,
     &quot;Application.bfs_graph.executor&quot;: &quot;Run&quot;,
+    &quot;Application.change_unset_bit_to_set.executor&quot;: &quot;Run&quot;,
+    &quot;Application.checK_set_unset.executor&quot;: &quot;Run&quot;,
+    &quot;Application.count_pair_sum.executor&quot;: &quot;Run&quot;,
+    &quot;Application.distant_elements.executor&quot;: &quot;Run&quot;,
     &quot;Application.djikstras_algo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.factorial_num.executor&quot;: &quot;Run&quot;,
     &quot;Application.fibonaciSeries.executor&quot;: &quot;Run&quot;,
+    &quot;Application.fibonaci_nth_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.find_frequency_of_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.find_two_unique_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Application.find_unique_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.gcd.executor&quot;: &quot;Run&quot;,
+    &quot;Application.kadence_algo.executor&quot;: &quot;Run&quot;,
+    &quot;Application.merge_overlaping.executor&quot;: &quot;Run&quot;,
+    &quot;Application.missing_natural_number.executor&quot;: &quot;Run&quot;,
+    &quot;Application.pair_sum.executor&quot;: &quot;Run&quot;,
     &quot;Application.prims_algo_MST.executor&quot;: &quot;Run&quot;,
+    &quot;Application.searching_in_2D_sorted_array.executor&quot;: &quot;Debug&quot;,
     &quot;Application.shortest_path_in_graph.executor&quot;: &quot;Run&quot;,
     &quot;Application.test.executor&quot;: &quot;Run&quot;,
+    &quot;Application.topology_sorting.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -170,7 +189,167 @@
       <option name="project" value="LOCAL" />
       <updated>1765050479726</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="topological sorting">
+      <option name="closed" value="true" />
+      <created>1765091529387</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1765091529387</updated>
+    </task>
+    <task id="LOCAL-00014" summary="topological sorting">
+      <option name="closed" value="true" />
+      <created>1765091569019</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1765091569019</updated>
+    </task>
+    <task id="LOCAL-00015" summary="kadence algo to find the maximum subarray sum">
+      <option name="closed" value="true" />
+      <created>1765322120950</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1765322120950</updated>
+    </task>
+    <task id="LOCAL-00016" summary="adding the element into the array with the queries array">
+      <option name="closed" value="true" />
+      <created>1765324037563</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1765324037563</updated>
+    </task>
+    <task id="LOCAL-00017" summary="merging the overlapping arrays">
+      <option name="closed" value="true" />
+      <created>1765327961822</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1765327961822</updated>
+    </task>
+    <task id="LOCAL-00018" summary="finding the value in the 2D sorted array">
+      <option name="closed" value="true" />
+      <created>1765496017963</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1765496017963</updated>
+    </task>
+    <task id="LOCAL-00019" summary="sum of all sub matrix using the contribution technique">
+      <option name="closed" value="true" />
+      <created>1765498860841</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1765498860841</updated>
+    </task>
+    <task id="LOCAL-00020" summary="sum of all sub matrix using the contribution technique">
+      <option name="closed" value="true" />
+      <created>1765635037858</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1765635037858</updated>
+    </task>
+    <task id="LOCAL-00021" summary="finding the first missing natural number">
+      <option name="closed" value="true" />
+      <created>1765635952119</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1765635952119</updated>
+    </task>
+    <task id="LOCAL-00022" summary="check set or unset of a number using the bit manupulation concept">
+      <option name="closed" value="true" />
+      <created>1765645210260</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1765645210260</updated>
+    </task>
+    <task id="LOCAL-00023" summary="if the ith bit is unset make it to the set and if it is already set no change">
+      <option name="closed" value="true" />
+      <created>1765645590612</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1765645590612</updated>
+    </task>
+    <task id="LOCAL-00024" summary="if the ith bit is unset make it to the set and if it is already set no change">
+      <option name="closed" value="true" />
+      <created>1765646780100</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1765646780100</updated>
+    </task>
+    <task id="LOCAL-00025" summary="finding the unique number in the array">
+      <option name="closed" value="true" />
+      <created>1765647023659</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1765647023659</updated>
+    </task>
+    <task id="LOCAL-00026" summary="finding the two unique number in the array">
+      <option name="closed" value="true" />
+      <created>1765653114548</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1765653114548</updated>
+    </task>
+    <task id="LOCAL-00027" summary="finding the frequency of the numbers">
+      <option name="closed" value="true" />
+      <created>1765691798007</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1765691798007</updated>
+    </task>
+    <task id="LOCAL-00028" summary="number of distant elements in the array">
+      <option name="closed" value="true" />
+      <created>1765692421126</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1765692421126</updated>
+    </task>
+    <task id="LOCAL-00029" summary="finding the pair sum in the array">
+      <option name="closed" value="true" />
+      <created>1765693870383</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1765693870383</updated>
+    </task>
+    <task id="LOCAL-00030" summary="finding the count of the pair sum">
+      <option name="closed" value="true" />
+      <created>1765698388065</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1765698388065</updated>
+    </task>
+    <task id="LOCAL-00031" summary="finding factorial of the numbers">
+      <option name="closed" value="true" />
+      <created>1765713735361</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1765713735361</updated>
+    </task>
+    <task id="LOCAL-00032" summary="finding the GCD">
+      <option name="closed" value="true" />
+      <created>1765721285080</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1765721285080</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -197,7 +376,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="adding the hello wrold code" />
     <MESSAGE value="adding the two varibale approach" />
     <MESSAGE value="cycle detection in the underected graph" />
@@ -206,6 +384,23 @@
     <MESSAGE value="shortest path from source to destination in graph" />
     <MESSAGE value="MST finding in the connected graph" />
     <MESSAGE value="dijakstras algorithm to find the shorted path from source to all nodes" />
-    <option name="LAST_COMMIT_MESSAGE" value="dijakstras algorithm to find the shorted path from source to all nodes" />
+    <MESSAGE value="topological sorting" />
+    <MESSAGE value="kadence algo to find the maximum subarray sum" />
+    <MESSAGE value="adding the element into the array with the queries array" />
+    <MESSAGE value="merging the overlapping arrays" />
+    <MESSAGE value="finding the value in the 2D sorted array" />
+    <MESSAGE value="sum of all sub matrix using the contribution technique" />
+    <MESSAGE value="finding the first missing natural number" />
+    <MESSAGE value="check set or unset of a number using the bit manupulation concept" />
+    <MESSAGE value="if the ith bit is unset make it to the set and if it is already set no change" />
+    <MESSAGE value="finding the unique number in the array" />
+    <MESSAGE value="finding the two unique number in the array" />
+    <MESSAGE value="finding the frequency of the numbers" />
+    <MESSAGE value="number of distant elements in the array" />
+    <MESSAGE value="finding the pair sum in the array" />
+    <MESSAGE value="finding the count of the pair sum" />
+    <MESSAGE value="finding factorial of the numbers" />
+    <MESSAGE value="finding the GCD" />
+    <option name="LAST_COMMIT_MESSAGE" value="finding the GCD" />
   </component>
 </project>
