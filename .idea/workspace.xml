@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="first occurance of the number in the arr">
-      <change beforePath="$PROJECT_DIR$/squareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/squareRoot.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="last occurance of the number in the arr">
+      <change afterPath="$PROJECT_DIR$/agressive_cows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/painterPart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,13 +37,15 @@
   }
 }</component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="35whjhzxFNSaitoz2qpLTJOWQnv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +55,7 @@
     "Application.CycleDetectionInGraph.executor": "Run",
     "Application.Sub_matrix_sum.executor": "Run",
     "Application.adding_ele.executor": "Run",
+    "Application.agressive_cows.executor": "Run",
     "Application.bfs_graph.executor": "Run",
     "Application.bit_count_chekcing_in_queries.executor": "Debug",
     "Application.change_unset_bit_to_set.executor": "Run",
@@ -68,6 +73,7 @@
     "Application.kadence_algo.executor": "Run",
     "Application.merge_overlaping.executor": "Run",
     "Application.missing_natural_number.executor": "Run",
+    "Application.painerPart.executor": "Run",
     "Application.pair_sum.executor": "Run",
     "Application.prims_algo_MST.executor": "Run",
     "Application.searching_in_2D_sorted_array.executor": "Debug",
@@ -383,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769938601503</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="last occurance of the number in the arr">
+      <option name="closed" value="true" />
+      <created>1769939041384</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1769939041384</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -410,7 +424,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cycle detection in the undirected graph" />
     <MESSAGE value="breadth first search in graphs" />
     <MESSAGE value="shortest path from source to destination in graph" />
     <MESSAGE value="MST finding in the connected graph" />
@@ -435,6 +448,22 @@
     <MESSAGE value="finding the unique number using the xor operator" />
     <MESSAGE value="all changes" />
     <MESSAGE value="first occurance of the number in the arr" />
-    <option name="LAST_COMMIT_MESSAGE" value="first occurance of the number in the arr" />
+    <MESSAGE value="last occurance of the number in the arr" />
+    <option name="LAST_COMMIT_MESSAGE" value="last occurance of the number in the arr" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/agressive_cows.java</url>
+          <line>15</line>
+          <properties class="agressive_cows" method="minDist">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
