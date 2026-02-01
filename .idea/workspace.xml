@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the GCD">
-      <change afterPath="$PROJECT_DIR$/merge_to_array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.java" afterDir="false" />
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="finding the unique number using the xor operator">
+      <change afterPath="$PROJECT_DIR$/bit_count_chekcing_in_queries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/squareRoot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unique_number_of_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/DSA_JAVA/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_JAVA/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA_JAVA/gcd.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA_JAVA/gcd.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unique_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/unique_number.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,42 +51,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CycleDetectionInGraph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Sub_matrix_sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.adding_ele.executor&quot;: &quot;Run&quot;,
-    &quot;Application.bfs_graph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.change_unset_bit_to_set.executor&quot;: &quot;Run&quot;,
-    &quot;Application.checK_set_unset.executor&quot;: &quot;Run&quot;,
-    &quot;Application.count_pair_sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.distant_elements.executor&quot;: &quot;Run&quot;,
-    &quot;Application.djikstras_algo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.factorial_num.executor&quot;: &quot;Run&quot;,
-    &quot;Application.fibonaciSeries.executor&quot;: &quot;Run&quot;,
-    &quot;Application.fibonaci_nth_number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.find_frequency_of_number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.find_two_unique_numbers.executor&quot;: &quot;Run&quot;,
-    &quot;Application.find_unique_number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.gcd.executor&quot;: &quot;Run&quot;,
-    &quot;Application.kadence_algo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.merge_overlaping.executor&quot;: &quot;Run&quot;,
-    &quot;Application.missing_natural_number.executor&quot;: &quot;Run&quot;,
-    &quot;Application.pair_sum.executor&quot;: &quot;Run&quot;,
-    &quot;Application.prims_algo_MST.executor&quot;: &quot;Run&quot;,
-    &quot;Application.searching_in_2D_sorted_array.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.shortest_path_in_graph.executor&quot;: &quot;Run&quot;,
-    &quot;Application.test.executor&quot;: &quot;Run&quot;,
-    &quot;Application.topology_sorting.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/DSA_JAVA&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CycleDetectionInGraph.executor": "Run",
+    "Application.Sub_matrix_sum.executor": "Run",
+    "Application.adding_ele.executor": "Run",
+    "Application.bfs_graph.executor": "Run",
+    "Application.bit_count_chekcing_in_queries.executor": "Debug",
+    "Application.change_unset_bit_to_set.executor": "Run",
+    "Application.checK_set_unset.executor": "Run",
+    "Application.count_pair_sum.executor": "Run",
+    "Application.distant_elements.executor": "Run",
+    "Application.djikstras_algo.executor": "Run",
+    "Application.factorial_num.executor": "Run",
+    "Application.fibonaciSeries.executor": "Run",
+    "Application.fibonaci_nth_number.executor": "Run",
+    "Application.find_frequency_of_number.executor": "Run",
+    "Application.find_two_unique_numbers.executor": "Run",
+    "Application.find_unique_number.executor": "Run",
+    "Application.gcd.executor": "Run",
+    "Application.kadence_algo.executor": "Run",
+    "Application.merge_overlaping.executor": "Run",
+    "Application.missing_natural_number.executor": "Run",
+    "Application.pair_sum.executor": "Run",
+    "Application.prims_algo_MST.executor": "Run",
+    "Application.searching_in_2D_sorted_array.executor": "Debug",
+    "Application.shortest_path_in_graph.executor": "Run",
+    "Application.squareRoot.executor": "Run",
+    "Application.test.executor": "Run",
+    "Application.topology_sorting.executor": "Run",
+    "Application.unique_number.executor": "Run",
+    "Application.unique_number_of_3.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/projects/DSA_JAVA",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -351,7 +356,15 @@
       <option name="project" value="LOCAL" />
       <updated>1765721285080</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="finding the unique number using the xor operator">
+      <option name="closed" value="true" />
+      <created>1767623825010</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1767623825010</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +391,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adding the hello wrold code" />
     <MESSAGE value="adding the two varibale approach" />
     <MESSAGE value="cycle detection in the underected graph" />
     <MESSAGE value="cycle detection in the undirected graph" />
@@ -403,6 +415,7 @@
     <MESSAGE value="finding the count of the pair sum" />
     <MESSAGE value="finding factorial of the numbers" />
     <MESSAGE value="finding the GCD" />
-    <option name="LAST_COMMIT_MESSAGE" value="finding the GCD" />
+    <MESSAGE value="finding the unique number using the xor operator" />
+    <option name="LAST_COMMIT_MESSAGE" value="finding the unique number using the xor operator" />
   </component>
 </project>
