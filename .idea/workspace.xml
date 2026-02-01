@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="all changes">
+    <list default="true" id="18eeca6f-09b0-4090-8bfc-320bc9b71686" name="Changes" comment="first occurance of the number in the arr">
       <change beforePath="$PROJECT_DIR$/squareRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/squareRoot.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -375,7 +375,15 @@
       <option name="project" value="LOCAL" />
       <updated>1769937876145</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="first occurance of the number in the arr">
+      <option name="closed" value="true" />
+      <created>1769938601503</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1769938601503</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -402,7 +410,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cycle detection in the underected graph" />
     <MESSAGE value="cycle detection in the undirected graph" />
     <MESSAGE value="breadth first search in graphs" />
     <MESSAGE value="shortest path from source to destination in graph" />
@@ -427,6 +434,7 @@
     <MESSAGE value="finding the GCD" />
     <MESSAGE value="finding the unique number using the xor operator" />
     <MESSAGE value="all changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="all changes" />
+    <MESSAGE value="first occurance of the number in the arr" />
+    <option name="LAST_COMMIT_MESSAGE" value="first occurance of the number in the arr" />
   </component>
 </project>
